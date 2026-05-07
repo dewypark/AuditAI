@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>AuditAI</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+body { background: #f5f5f3; color: #1a1a1a; }
+.header { background: white; padding: 1rem 1.5rem; border-bottom: 1px solid #e5e5e5; display: flex; justify-content: space-between; align-items: center; }
+.app-name { font-size: 20px; font-weight: 600; }
+.app-sub { font-size: 12px; color: #888; margin-top: 2px; }
+.cisa-badge { font-size: 11px; padding: 3px 8px; border-radius: 6px; background: #e6f1fb; color: #185fa5; font-weight: 500; }
+.upload-section { max-width: 900px; margin: 2rem auto; background: white; border-radius: 10px; padding: 2rem; border: 1px solid #e5e5e5; text-align: center; }
+.upload-title { font-size: 16px; font-weight: 500; margin-bottom: 8px; }
+.upload-sub { font-size: 13px; color: #888; margin-bottom: 1.5rem; }
+.btn { font-size: 13px; padding: 10px 20px; border-radius: 8px; border: none; background: #1a1a1a; color: white; cursor: pointer; margin-top: 10px; }
+.btn:hover { background: #333; }
+.btn.outline { background: white; color: #1a1a1a; border: 1px solid #e5e5e5; }
+.btn.outline:hover { background: #f5f5f3; }
+.results { max-width: 900px; margin: 0 auto 1rem; display: none; }
+.actions { max-width: 900px; margin: 0 auto 2rem; display: none; gap: 8px; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 1rem; }
+.metric { background: white; border-radius: 10px; padding: 14px; border: 1px solid #e5e5e5; }
+.metric-label { font-size: 11px; color: #888; margin-bottom: 4px; }
+.metric-value { font-size: 26px; font-weight: 600; }
+.metric-value.red { color: #e24b4a; }
+.metric-value.amber { color: #ba7517; }
+.metric-value.green { color: #639922; }
+.metric-sub { font-size: 11px; color: #aaa; margin-top: 2px; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1rem; }
+.card { background: white; border-radius: 10px; padding: 1rem 1.25rem; border: 1px solid #e5e5e5; margin-bottom: 1rem; }
+.card-title { font-size: 13px; font-weight: 600; margin-bottom: 12px; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; }
+th { text-align: left; padding: 8px; border-bottom: 1px solid #e5e5e5; color: #888; font-weight: 500; }
+td { padding: 8px; border-bottom: 1px solid #f0f0f0; }
+.badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; }
+.badge.high { background: #fcebeb; color: #a32d2d; }
+.badge.med { background: #faeeda; color: #854f0b; }
+.badge.low { background: #eaf3de; color: #3b6d11; }
+.alert-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+.alert-item:last-child { border-bottom: none; }
+.dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
+.dot.red { background: #e24b4a; }
+.dot.amber { background: #ef9f27; }
+.dot.green { background: #639922; }
+.alert-text { font-size: 12px; line-height: 1.5; }
+.alert-date { font-size: 11px; color: #aaa; margin-top: 2px; }
+.risk-level { font-size: 24px; font-weight: 700; margin-bottom: 4px; }
+.risk-level.high { color: #e24b4a; }
+.risk-level.med { color: #ba7517; }
+.risk-level.low { color: #639922; }
+.loading { display: none; text-align: center; padding: 2rem; color: #888; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="app-name">AuditAI</div>
+    <div class="app-sub" id="company-info">IT 내부통제 자동 진단 플랫폼</div>
+  </div>
+  <span class="cisa-badge">CISA 기준</span>
+</div>
+
+<div class="upload-section" id="upload-section">
+  <div class="upload-title">거래 데이터 업로드</div>
+  <div class="upload-sub">CSV 또는 엑셀 파일을 업로드하면 이상거래와 직무분리 위반을 자동으로 탐지합니다.</div>
+  <input type="file" id="csvFile" accept=".csv,.xlsx,.xls">
+  <br>
+  <button class="btn" onclick="analyze()">분석 시작</button>
+</div>
+
+<div class="loading" id="loading">분석 중입니다...</div>
+
+<div class="results" id="results">
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-label">종합 리스크 등급</div>
+      <div class="risk-level" id="risk-level">-</div>
+      <div class="metric-sub" id="risk-sub">-</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">전체 거래</div>
+      <div class="metric-value" id="total">-</div>
+      <div class="metric-sub">분석 완료</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">이상거래 탐지</div>
+      <div class="metric-value red" id="anomaly_count">-</div>
+      <div class="metric-sub">검토 필요</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">직무분리 위반</div>
+      <div class="metric-value red" id="sod_count">-</div>
+      <div class="metric-sub">즉각 조치 필요</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="card">
+      <div class="card-title">이상거래 목록</div>
+      <table>
+        <thead><tr><th>거래ID</th><th>금액</th><th>상태</th></tr></thead>
+        <tbody id="anomaly_table"></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <div class="card-title">직무분리 위반 목록</div>
+      <table>
+        <thead><tr><th>요청자</th><th>승인자</th><th>지급자</th><th>상태</th></tr></thead>
+        <tbody id="sod_table"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">실시간 알림</div>
+    <div id="alerts"></div>
+  </div>
+</div>
+
+<div class="actions" id="actions">
+  <button class="btn" onclick="window.location.href='/download_pdf'">PDF 리포트 다운로드</button>
+  <button class="btn outline" onclick="resetForm()">새 파일 분석</button>
+</div>
+
+<script>
+async function analyze() {
+  const file = document.getElementById('csvFile').files[0];
+  if (!file) { alert('파일을 선택해주세요'); return; }
+  
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('actions').style.display = 'none';
+  
+  const formData = new FormData();
+  formData.append('file', file);
+  
+  const res = await fetch('/analyze', { method: 'POST', body: formData });
+  const data = await res.json();
+  
+  document.getElementById('loading').style.display = 'none';
+  
+  const total = data.total;
+  const anomaly = data.anomaly_count;
+  const sod = data.sod_count;
+  
+  let riskLevel = 'LOW';
+  let riskClass = 'low';
+  if (anomaly > total * 0.1 || sod > 5) { riskLevel = 'HIGH'; riskClass = 'high'; }
+  else if (anomaly > total * 0.05 || sod > 0) { riskLevel = 'MEDIUM'; riskClass = 'med'; }
+  
+  document.getElementById('risk-level').textContent = riskLevel;
+  document.getElementById('risk-level').className = 'risk-level ' + riskClass;
+  document.getElementById('total').textContent = total.toLocaleString();
+  document.getElementById('anomaly_count').textContent = anomaly.toLocaleString();
+  document.getElementById('sod_count').textContent = sod.toLocaleString();
+  document.getElementById('company-info').textContent = file.name + ' · ' + new Date().toLocaleDateString('ko-KR') + ' 분석';
+  
+  const anomalyTbody = document.getElementById('anomaly_table');
+  anomalyTbody.innerHTML = '';
+  data.anomalies.forEach(row => {
+    anomalyTbody.innerHTML += `<tr>
+      <td>${row.Time || row['거래ID'] || '-'}</td>
+      <td>${row.Amount ? Number(row.Amount).toLocaleString() + '원' : '-'}</td>
+      <td><span class="badge high">이상거래</span></td>
+    </tr>`;
+  });
+
+  const sodTbody = document.getElementById('sod_table');
+  sodTbody.innerHTML = '';
+  if (data.sod_violations && data.sod_violations.length > 0) {
+    data.sod_violations.forEach(row => {
+      sodTbody.innerHTML += `<tr>
+        <td>${row['요청자'] || row.requester || '-'}</td>
+        <td>${row['승인자'] || row.approver || '-'}</td>
+        <td>${row['지급자'] || row.payer || '-'}</td>
+        <td><span class="badge high">위반</span></td>
+      </tr>`;
+    });
+  } else {
+    sodTbody.innerHTML = '<tr><td colspan="4" style="color:#888;text-align:center;padding:1rem;">위반 없음</td></tr>';
+  }
+
+  const alerts = document.getElementById('alerts');
+  alerts.innerHTML = '';
+  if (sod > 0) {
+    alerts.innerHTML += `<div class="alert-item"><div class="dot red"></div><div><div class="alert-text">직무분리 위반 ${sod}건이 탐지됐습니다. 즉각 조치가 필요합니다.</div><div class="alert-date">방금</div></div></div>`;
+  }
+  if (anomaly > 0) {
+    alerts.innerHTML += `<div class="alert-item"><div class="dot amber"></div><div><div class="alert-text">이상거래 ${anomaly.toLocaleString()}건이 탐지됐습니다. 검토가 필요합니다.</div><div class="alert-date">방금</div></div></div>`;
+  }
+  if (sod === 0 && anomaly === 0) {
+    alerts.innerHTML += `<div class="alert-item"><div class="dot green"></div><div><div class="alert-text">이상 없음. 모든 거래가 정상입니다.</div><div class="alert-date">방금</div></div></div>`;
+  }
+  
+  document.getElementById('results').style.display = 'block';
+  document.getElementById('actions').style.display = 'flex';
+}
+
+function resetForm() {
+  document.getElementById('csvFile').value = '';
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('actions').style.display = 'none';
+  document.getElementById('company-info').textContent = 'IT 내부통제 자동 진단 플랫폼';
+}
+</script>
+
+</body>
+</html>
