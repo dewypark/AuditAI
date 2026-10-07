@@ -24,6 +24,7 @@ with db() as c:
     CREATE TABLE IF NOT EXISTS runs(id TEXT PRIMARY KEY,owner TEXT,case_no INTEGER,created TEXT,filename TEXT,hash TEXT,raw BLOB,config TEXT,population INTEGER,result TEXT,conclusion TEXT DEFAULT '',conclusion_by TEXT DEFAULT '');
     CREATE TABLE IF NOT EXISTS candidates(run_id TEXT,id TEXT,entity TEXT,rule TEXT,reason TEXT,evidence_request TEXT,source_ref TEXT,severity TEXT,status TEXT DEFAULT '미검토',reviewer TEXT DEFAULT '',note TEXT DEFAULT '',evidence_ref TEXT DEFAULT '',updated TEXT DEFAULT '',PRIMARY KEY(run_id,id),FOREIGN KEY(run_id) REFERENCES runs(id));
     CREATE TABLE IF NOT EXISTS history(seq INTEGER PRIMARY KEY AUTOINCREMENT,run_id TEXT,candidate_id TEXT,created TEXT,payload TEXT);
+    CREATE TABLE IF NOT EXISTS review_requests(id TEXT PRIMARY KEY,run_id TEXT UNIQUE,requester TEXT,question TEXT,status TEXT DEFAULT '검토 대기',created TEXT,reviewer TEXT DEFAULT '',opinion TEXT DEFAULT '',updated TEXT DEFAULT '',FOREIGN KEY(run_id) REFERENCES runs(id));
     CREATE TABLE IF NOT EXISTS mappings(owner TEXT,case_no INTEGER,payload TEXT,PRIMARY KEY(owner,case_no));
     ''')
 # UI labels are Korean; internal persisted values also use Korean.
@@ -107,8 +108,33 @@ def run_page(rid):
     with db() as c:
         cs=c.execute('SELECT * FROM candidates WHERE run_id=?',(rid,)).fetchall()
         h=c.execute('SELECT * FROM history WHERE run_id=? ORDER BY seq DESC',(rid,)).fetchall()
+        review_request=c.execute('SELECT * FROM review_requests WHERE run_id=?',(rid,)).fetchone()
     tables={n:pd.DataFrame(rows).head(200).to_html(index=False,escape=True,na_rep='—') for n,rows in json.loads(r['result']).items()}
-    return render_template('workspace.html',names=NAMES,run=r,candidates=cs,history=h,tables=tables,risk=RISKS[r['case_no']],control=CONTROLS[r['case_no']],statuses=STATUSES)
+    return render_template('workspace.html',names=NAMES,run=r,candidates=cs,history=h,tables=tables,risk=RISKS[r['case_no']],control=CONTROLS[r['case_no']],statuses=STATUSES,review_request=review_request)
+
+@app.post('/run/<rid>/request-review')
+def request_review(rid):
+    get_run(rid)
+    who=request.form.get('requester','').strip();question=request.form.get('question','').strip()
+    if not who or not question or len(who)>100 or len(question)>4000:abort(400,'신청자와 검토 요청 내용을 입력해주세요. 이름은 100자, 내용은 4000자 이내입니다.')
+    with db() as c:
+        existing=c.execute('SELECT id FROM review_requests WHERE run_id=?',(rid,)).fetchone()
+        if not existing:
+            request_id=uuid.uuid4().hex
+            c.execute('INSERT INTO review_requests(id,run_id,requester,question,created) VALUES (?,?,?,?,?)',(request_id,rid,who,question,now()))
+            c.execute('INSERT INTO history(run_id,candidate_id,created,payload) VALUES (?,?,?,?)',(rid,'REVIEW_REQUEST',now(),json.dumps({'request_id':request_id,'requester':who,'question':question,'status':'검토 대기'},ensure_ascii=False)))
+    return redirect(url_for('run_page',rid=rid)+'#review-request')
+
+@app.post('/run/<rid>/review-opinion')
+def review_opinion(rid):
+    get_run(rid)
+    who=request.form.get('reviewer','').strip();opinion=request.form.get('opinion','').strip()
+    if not who or not opinion or len(who)>100 or len(opinion)>4000:abort(400,'검토자와 의견을 입력해주세요. 이름은 100자, 의견은 4000자 이내입니다.')
+    with db() as c:
+        cur=c.execute("UPDATE review_requests SET reviewer=?,opinion=?,status='의견 작성 완료',updated=? WHERE run_id=?",(who,opinion,now(),rid))
+        if cur.rowcount!=1:abort(400,'먼저 검토를 신청해주세요.')
+        c.execute('INSERT INTO history(run_id,candidate_id,created,payload) VALUES (?,?,?,?)',(rid,'REVIEW_OPINION',now(),json.dumps({'reviewer':who,'opinion':opinion},ensure_ascii=False)))
+    return redirect(url_for('run_page',rid=rid)+'#review-request')
 
 @app.post('/run/<rid>/review/<cid>')
 def review(rid,cid):
@@ -151,8 +177,9 @@ def export(rid):
     with db() as c:
         cs=pd.read_sql_query('SELECT * FROM candidates WHERE run_id=?',c,params=(rid,))
         h=pd.read_sql_query('SELECT * FROM history WHERE run_id=?',c,params=(rid,))
+        requests=pd.read_sql_query('SELECT * FROM review_requests WHERE run_id=?',c,params=(rid,))
     tables={n:pd.DataFrame(rows) for n,rows in json.loads(r['result']).items()}
-    tables['검토 기록']=cs;tables['검토 이력']=h
+    tables['검토 기록']=cs;tables['검토 이력']=h;tables['검토 신청·의견']=requests
     tables['실행·RCM']=pd.DataFrame([{'항목':k,'값':str(v)} for k,v in {'실행 ID':rid,'입력 SHA256':r['hash'],'기준 설정':r['config'],'모집단':r['population'],'Risk':RISKS[r['case_no']],'Control':CONTROLS[r['case_no']],'결론':r['conclusion'] or '증빙 검토 후 작성 필요','작성자':r['conclusion_by'],'범위':'합성/업로드 자료의 규칙 검사; 고객 실무 감사 의견 아님'}.items()])
     b=io.BytesIO()
     with pd.ExcelWriter(b,engine='openpyxl') as w:
@@ -164,9 +191,12 @@ def export(rid):
 @app.get('/run/<rid>/workpaper')
 def workpaper(rid):
     r=get_run(rid)
-    with db() as c:rows=c.execute('SELECT * FROM candidates WHERE run_id=?',(rid,)).fetchall()
+    with db() as c:
+        rows=c.execute('SELECT * FROM candidates WHERE run_id=?',(rid,)).fetchall()
+        req=c.execute('SELECT * FROM review_requests WHERE run_id=?',(rid,)).fetchone()
     lines=[f'# Case {r["case_no"]:02} — {NAMES[r["case_no"]]}',f'실행 ID: {rid}',f'입력: {r["filename"]}',f'SHA256: {r["hash"]}',f'설정: {r["config"]}',f'모집단: {r["population"]}; 후보: {len(rows)}',f'Risk: {RISKS[r["case_no"]]}',f'Control: {CONTROLS[r["case_no"]]}','범위: 제공 자료에 대한 규칙 검사. 자료의 외부 완전성·진위 확인은 별도.']
     for x in rows:lines.extend([f'\n## {x["id"]} / {x["entity"]} / {x["rule"]}',f'추출 이유: {x["reason"]}',f'원본 참조: {x["source_ref"]}',f'증빙 요청: {x["evidence_request"]}',f'상태: {x["status"]}; 검토자: {x["reviewer"]}; 시각: {x["updated"]}',f'증빙 참조: {x["evidence_ref"]}',f'검토 사유: {x["note"]}'])
+    if req:lines.extend(['\n## 검토 신청·의견',f'신청 ID: {req["id"]}',f'신청자: {req["requester"]}; 상태: {req["status"]}',f'요청: {req["question"]}',f'검토자: {req["reviewer"]}',f'의견: {req["opinion"] or "미작성"}'])
     lines.extend(['\n## 결론',r['conclusion'] or '미작성: 증빙 검토 후 범위·확인사항·한계를 포함해 사람이 작성',f'작성자: {r["conclusion_by"]}'])
     return send_file(io.BytesIO('\n'.join(lines).encode()),as_attachment=True,download_name='workpaper.md',mimetype='text/markdown')
 
