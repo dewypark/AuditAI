@@ -1,8 +1,7 @@
-flask
-pandas
+flask>=3.0
+pandas>=2.0
 numpy
 scikit-learn
-xgboost
 reportlab
 openpyxl
 gunicorn

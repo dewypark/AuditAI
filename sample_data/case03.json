@@ -1,0 +1,1474 @@
+{
+  "ERP_Users": [
+    {
+      "user_id": "U001",
+      "employee_id": "E001",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U002",
+      "employee_id": "E002",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U003",
+      "employee_id": "E003",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U004",
+      "employee_id": "E004",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U005",
+      "employee_id": "E005",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U006",
+      "employee_id": "E006",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U007",
+      "employee_id": "E007",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U008",
+      "employee_id": "E008",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U009",
+      "employee_id": "E009",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U010",
+      "employee_id": "E010",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U011",
+      "employee_id": "E011",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U012",
+      "employee_id": "E012",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U013",
+      "employee_id": "E013",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U014",
+      "employee_id": "E014",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U015",
+      "employee_id": "E015",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U016",
+      "employee_id": "E016",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U017",
+      "employee_id": "E017",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U018",
+      "employee_id": "E018",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U019",
+      "employee_id": "E019",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U020",
+      "employee_id": "E020",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U021",
+      "employee_id": "E021",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U022",
+      "employee_id": "E022",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U023",
+      "employee_id": "E023",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U024",
+      "employee_id": "E024",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U025",
+      "employee_id": "E025",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U026",
+      "employee_id": "E026",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U027",
+      "employee_id": "E027",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U028",
+      "employee_id": "E028",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U029",
+      "employee_id": "E029",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U030",
+      "employee_id": "E030",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U031",
+      "employee_id": "E031",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U032",
+      "employee_id": "E032",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U033",
+      "employee_id": "E033",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U034",
+      "employee_id": "E034",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U035",
+      "employee_id": "E035",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U036",
+      "employee_id": "E036",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U037",
+      "employee_id": "E037",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U038",
+      "employee_id": "E038",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U039",
+      "employee_id": "E039",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U040",
+      "employee_id": "E040",
+      "department": "Procurement",
+      "account_status": "Disabled"
+    },
+    {
+      "user_id": "U041",
+      "employee_id": "E041",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U042",
+      "employee_id": "E042",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U043",
+      "employee_id": "E043",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U044",
+      "employee_id": "E044",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U045",
+      "employee_id": "E045",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U046",
+      "employee_id": "E046",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U047",
+      "employee_id": "E047",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U048",
+      "employee_id": "E048",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U049",
+      "employee_id": "E049",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U050",
+      "employee_id": "E050",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U051",
+      "employee_id": "E051",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U052",
+      "employee_id": "E052",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U053",
+      "employee_id": "E053",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U054",
+      "employee_id": "E054",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U055",
+      "employee_id": "E055",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U056",
+      "employee_id": "E056",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U057",
+      "employee_id": "E057",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U058",
+      "employee_id": "E058",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U059",
+      "employee_id": "E059",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U060",
+      "employee_id": "E060",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U061",
+      "employee_id": "E061",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U062",
+      "employee_id": "E062",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U063",
+      "employee_id": "E063",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U064",
+      "employee_id": "E064",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U065",
+      "employee_id": "E065",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U066",
+      "employee_id": "E066",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U067",
+      "employee_id": "E067",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U068",
+      "employee_id": "E068",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U069",
+      "employee_id": "E069",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U070",
+      "employee_id": "E070",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U071",
+      "employee_id": "E071",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U072",
+      "employee_id": "E072",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U073",
+      "employee_id": "E073",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U074",
+      "employee_id": "E074",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U075",
+      "employee_id": "E075",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U076",
+      "employee_id": "E076",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U077",
+      "employee_id": "E077",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U078",
+      "employee_id": "E078",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U079",
+      "employee_id": "E079",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U080",
+      "employee_id": "E080",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U081",
+      "employee_id": "E081",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U082",
+      "employee_id": "E082",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U083",
+      "employee_id": "E083",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U084",
+      "employee_id": "E084",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U085",
+      "employee_id": "E085",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U086",
+      "employee_id": "E086",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U087",
+      "employee_id": "E087",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U088",
+      "employee_id": "E088",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U089",
+      "employee_id": "E089",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U090",
+      "employee_id": "E090",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U091",
+      "employee_id": "E091",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U092",
+      "employee_id": "E092",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U093",
+      "employee_id": "E093",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U094",
+      "employee_id": "E094",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U095",
+      "employee_id": "E095",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U096",
+      "employee_id": "E096",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U097",
+      "employee_id": "E097",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U098",
+      "employee_id": "E098",
+      "department": "Procurement",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U099",
+      "employee_id": "E099",
+      "department": "Finance",
+      "account_status": "Active"
+    },
+    {
+      "user_id": "U100",
+      "employee_id": "E100",
+      "department": "Procurement",
+      "account_status": "Active"
+    }
+  ],
+  "User_Roles": [
+    {
+      "assignment_id": "A001",
+      "user_id": "U001",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A002",
+      "user_id": "U002",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A003",
+      "user_id": "U003",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A004",
+      "user_id": "U004",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A005",
+      "user_id": "U005",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A006",
+      "user_id": "U006",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A007",
+      "user_id": "U007",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A008",
+      "user_id": "U008",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A009",
+      "user_id": "U009",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A010",
+      "user_id": "U010",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A011",
+      "user_id": "U011",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A012",
+      "user_id": "U012",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A013",
+      "user_id": "U013",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A014",
+      "user_id": "U014",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A015",
+      "user_id": "U015",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A016",
+      "user_id": "U016",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A017",
+      "user_id": "U017",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A018",
+      "user_id": "U018",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A019",
+      "user_id": "U019",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A020",
+      "user_id": "U020",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A021",
+      "user_id": "U021",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A022",
+      "user_id": "U022",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A023",
+      "user_id": "U023",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A024",
+      "user_id": "U024",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A025",
+      "user_id": "U025",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A026",
+      "user_id": "U026",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A027",
+      "user_id": "U027",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A028",
+      "user_id": "U028",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A029",
+      "user_id": "U029",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A030",
+      "user_id": "U030",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A031",
+      "user_id": "U031",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A032",
+      "user_id": "U032",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A033",
+      "user_id": "U033",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A034",
+      "user_id": "U034",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A035",
+      "user_id": "U035",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A036",
+      "user_id": "U036",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A037",
+      "user_id": "U037",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A038",
+      "user_id": "U038",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A039",
+      "user_id": "U039",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A040",
+      "user_id": "U040",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A041",
+      "user_id": "U041",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A042",
+      "user_id": "U042",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A043",
+      "user_id": "U043",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A044",
+      "user_id": "U044",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A045",
+      "user_id": "U045",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A046",
+      "user_id": "U046",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A047",
+      "user_id": "U047",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A048",
+      "user_id": "U048",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A049",
+      "user_id": "U049",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A050",
+      "user_id": "U050",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A051",
+      "user_id": "U051",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A052",
+      "user_id": "U052",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A053",
+      "user_id": "U053",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A054",
+      "user_id": "U054",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A055",
+      "user_id": "U055",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A056",
+      "user_id": "U056",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A057",
+      "user_id": "U057",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A058",
+      "user_id": "U058",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A059",
+      "user_id": "U059",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A060",
+      "user_id": "U060",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A061",
+      "user_id": "U061",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A062",
+      "user_id": "U062",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A063",
+      "user_id": "U063",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A064",
+      "user_id": "U064",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A065",
+      "user_id": "U065",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A066",
+      "user_id": "U066",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A067",
+      "user_id": "U067",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A068",
+      "user_id": "U068",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A069",
+      "user_id": "U069",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A070",
+      "user_id": "U070",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A071",
+      "user_id": "U071",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A072",
+      "user_id": "U072",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A073",
+      "user_id": "U073",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A074",
+      "user_id": "U074",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A075",
+      "user_id": "U075",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A076",
+      "user_id": "U076",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A077",
+      "user_id": "U077",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A078",
+      "user_id": "U078",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A079",
+      "user_id": "U079",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A080",
+      "user_id": "U080",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A081",
+      "user_id": "U081",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A082",
+      "user_id": "U082",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A083",
+      "user_id": "U083",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A084",
+      "user_id": "U084",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A085",
+      "user_id": "U085",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A086",
+      "user_id": "U086",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A087",
+      "user_id": "U087",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A088",
+      "user_id": "U088",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A089",
+      "user_id": "U089",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A090",
+      "user_id": "U090",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A091",
+      "user_id": "U091",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A092",
+      "user_id": "U092",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A093",
+      "user_id": "U093",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A094",
+      "user_id": "U094",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A095",
+      "user_id": "U095",
+      "role_id": "R_JE_POST",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A096",
+      "user_id": "U096",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A097",
+      "user_id": "U097",
+      "role_id": "R_VENDOR",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A098",
+      "user_id": "U098",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A099",
+      "user_id": "U099",
+      "role_id": "R_UNKNOWN",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A100",
+      "user_id": "U100",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A101",
+      "user_id": "U002",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A102",
+      "user_id": "U006",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A103",
+      "user_id": "U010",
+      "role_id": "R_JE_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A104",
+      "user_id": "U020",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A105",
+      "user_id": "U020",
+      "role_id": "R_INV_CREATE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A106",
+      "user_id": "U020",
+      "role_id": "R_INV_APPROVE",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A107",
+      "user_id": "U030",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": "2026-09-20T17:00:00.000"
+    },
+    {
+      "assignment_id": "A108",
+      "user_id": "U040",
+      "role_id": "R_PAYMENT",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    },
+    {
+      "assignment_id": "A109",
+      "user_id": "U050",
+      "role_id": "R_SUPER",
+      "granted_at": "2026-09-01T09:00:00.000",
+      "removed_at": null
+    }
+  ],
+  "Role_Permissions": [
+    {
+      "role_id": "R_VENDOR",
+      "permission_id": "VENDOR_MAINTAIN"
+    },
+    {
+      "role_id": "R_PAYMENT",
+      "permission_id": "PAYMENT_EXECUTE"
+    },
+    {
+      "role_id": "R_INV_CREATE",
+      "permission_id": "INVOICE_CREATE"
+    },
+    {
+      "role_id": "R_INV_APPROVE",
+      "permission_id": "INVOICE_APPROVE"
+    },
+    {
+      "role_id": "R_JE_POST",
+      "permission_id": "JOURNAL_POST"
+    },
+    {
+      "role_id": "R_JE_APPROVE",
+      "permission_id": "JOURNAL_APPROVE"
+    },
+    {
+      "role_id": "R_SUPER",
+      "permission_id": "VENDOR_MAINTAIN"
+    },
+    {
+      "role_id": "R_SUPER",
+      "permission_id": "PAYMENT_EXECUTE"
+    },
+    {
+      "role_id": "R_SUPER",
+      "permission_id": "INVOICE_CREATE"
+    },
+    {
+      "role_id": "R_SUPER",
+      "permission_id": "INVOICE_APPROVE"
+    },
+    {
+      "role_id": "R_SUPER",
+      "permission_id": "JOURNAL_POST"
+    },
+    {
+      "role_id": "R_SUPER",
+      "permission_id": "JOURNAL_APPROVE"
+    }
+  ],
+  "SoD_Rules": [
+    {
+      "rule_id": "SOD01",
+      "permission_a": "VENDOR_MAINTAIN",
+      "permission_b": "PAYMENT_EXECUTE",
+      "risk_description": "거래처 정보를 변경하고 지급도 실행할 수 있음",
+      "severity": "High"
+    },
+    {
+      "rule_id": "SOD02",
+      "permission_a": "INVOICE_CREATE",
+      "permission_b": "INVOICE_APPROVE",
+      "risk_description": "청구서를 작성하고 직접 승인할 수 있음",
+      "severity": "High"
+    },
+    {
+      "rule_id": "SOD03",
+      "permission_a": "JOURNAL_POST",
+      "permission_b": "JOURNAL_APPROVE",
+      "risk_description": "전표를 입력하고 직접 승인할 수 있음",
+      "severity": "High"
+    }
+  ],
+  "Mitigations": [
+    {
+      "mitigation_id": "M001",
+      "user_id": "U002",
+      "rule_id": "SOD01",
+      "approval_status": "Approved",
+      "approved_at": "2026-09-01T12:00:00.000",
+      "expires_at": "2026-10-31T18:00:00.000",
+      "control_description": "독립 검토자의 일별 지급 검토",
+      "evidence_ref": "EV-M001"
+    },
+    {
+      "mitigation_id": "M002",
+      "user_id": "U006",
+      "rule_id": "SOD02",
+      "approval_status": "Approved",
+      "approved_at": "2026-09-01T12:00:00.000",
+      "expires_at": "2026-09-20T18:00:00.000",
+      "control_description": "팀장의 사후 청구서 검토",
+      "evidence_ref": "EV-M002"
+    },
+    {
+      "mitigation_id": "M003",
+      "user_id": "U010",
+      "rule_id": "SOD03",
+      "approval_status": "Pending",
+      "approved_at": null,
+      "expires_at": null,
+      "control_description": "독립 전표 검토 예정",
+      "evidence_ref": null
+    }
+  ]
+}

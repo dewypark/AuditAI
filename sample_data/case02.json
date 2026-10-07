@@ -1,0 +1,2980 @@
+{
+  "HR_Master": [
+    {
+      "employee_id": "E001",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E002",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E003",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E004",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E005",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E006",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E007",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E008",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E009",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E010",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E011",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2026-09-15",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E012",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E013",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E014",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E015",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Terminated",
+      "hire_date": "2022-01-10",
+      "termination_date": "2026-09-20"
+    },
+    {
+      "employee_id": "E016",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E017",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E018",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E019",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E020",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E021",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E022",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E023",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E024",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E025",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E026",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E027",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E028",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E029",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E030",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E031",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E032",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E033",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E034",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E035",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E036",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E037",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E038",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E039",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E040",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E041",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E042",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E043",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E044",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E045",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E046",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E047",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E048",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E049",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E050",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E051",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E052",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E053",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E054",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E055",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E056",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E057",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E058",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E059",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E060",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E061",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E062",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E063",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E064",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E065",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E066",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E067",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E068",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E069",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E070",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E071",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E072",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E073",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E074",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E075",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E076",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E077",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E078",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E079",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E080",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E081",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E082",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E083",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E084",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E085",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E086",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E087",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E088",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E089",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E090",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E091",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E092",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E093",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E094",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E095",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E096",
+      "department": "Finance",
+      "job_title": "Accountant",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E097",
+      "department": "Procurement",
+      "job_title": "Buyer",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E098",
+      "department": "Sales",
+      "job_title": "Sales_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E099",
+      "department": "HR",
+      "job_title": "HR_Staff",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E100",
+      "department": "IT",
+      "job_title": "System_Admin",
+      "employment_status": "Employed",
+      "hire_date": "2022-01-10",
+      "termination_date": null
+    }
+  ],
+  "ERP_User_Roles": [
+    {
+      "assignment_id": "A001",
+      "user_id": "U001",
+      "employee_id": "E001",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R001"
+    },
+    {
+      "assignment_id": "A002",
+      "user_id": "U002",
+      "employee_id": "E002",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R002"
+    },
+    {
+      "assignment_id": "A003",
+      "user_id": "U003",
+      "employee_id": "E003",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R003"
+    },
+    {
+      "assignment_id": "A004",
+      "user_id": "U004",
+      "employee_id": "E004",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R004"
+    },
+    {
+      "assignment_id": "A005",
+      "user_id": "U005",
+      "employee_id": "E005",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R005"
+    },
+    {
+      "assignment_id": "A006",
+      "user_id": "U006",
+      "employee_id": "E006",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R006"
+    },
+    {
+      "assignment_id": "A007",
+      "user_id": "U007",
+      "employee_id": "E007",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R007"
+    },
+    {
+      "assignment_id": "A008",
+      "user_id": "U008",
+      "employee_id": "E008",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R008"
+    },
+    {
+      "assignment_id": "A009",
+      "user_id": "U009",
+      "employee_id": "E009",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R009"
+    },
+    {
+      "assignment_id": "A010",
+      "user_id": "U010",
+      "employee_id": "E010",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R010"
+    },
+    {
+      "assignment_id": "A011",
+      "user_id": "U011",
+      "employee_id": "E011",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R011"
+    },
+    {
+      "assignment_id": "A012",
+      "user_id": "U012",
+      "employee_id": "E012",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R012"
+    },
+    {
+      "assignment_id": "A013",
+      "user_id": "U013",
+      "employee_id": "E013",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R013"
+    },
+    {
+      "assignment_id": "A014",
+      "user_id": "U014",
+      "employee_id": "E014",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R014"
+    },
+    {
+      "assignment_id": "A015",
+      "user_id": "U015",
+      "employee_id": "E015",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R015"
+    },
+    {
+      "assignment_id": "A016",
+      "user_id": "U016",
+      "employee_id": "E016",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R016"
+    },
+    {
+      "assignment_id": "A017",
+      "user_id": "U017",
+      "employee_id": "E017",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R017"
+    },
+    {
+      "assignment_id": "A018",
+      "user_id": "U018",
+      "employee_id": "E018",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R018"
+    },
+    {
+      "assignment_id": "A019",
+      "user_id": "U019",
+      "employee_id": "E019",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R019"
+    },
+    {
+      "assignment_id": "A020",
+      "user_id": "U020",
+      "employee_id": "E020",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R020"
+    },
+    {
+      "assignment_id": "A021",
+      "user_id": "U021",
+      "employee_id": "E021",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R021"
+    },
+    {
+      "assignment_id": "A022",
+      "user_id": "U022",
+      "employee_id": "E022",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R022"
+    },
+    {
+      "assignment_id": "A023",
+      "user_id": "U023",
+      "employee_id": "E023",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R023"
+    },
+    {
+      "assignment_id": "A024",
+      "user_id": "U024",
+      "employee_id": "E024",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R024"
+    },
+    {
+      "assignment_id": "A025",
+      "user_id": "U025",
+      "employee_id": "E025",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R025"
+    },
+    {
+      "assignment_id": "A026",
+      "user_id": "U026",
+      "employee_id": "E026",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R026"
+    },
+    {
+      "assignment_id": "A027",
+      "user_id": "U027",
+      "employee_id": "E027",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R027"
+    },
+    {
+      "assignment_id": "A028",
+      "user_id": "U028",
+      "employee_id": "E028",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R028"
+    },
+    {
+      "assignment_id": "A029",
+      "user_id": "U029",
+      "employee_id": "E029",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R029"
+    },
+    {
+      "assignment_id": "A030",
+      "user_id": "U030",
+      "employee_id": "E030",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R030"
+    },
+    {
+      "assignment_id": "A031",
+      "user_id": "U031",
+      "employee_id": "E031",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R031"
+    },
+    {
+      "assignment_id": "A032",
+      "user_id": "U032",
+      "employee_id": "E032",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R032"
+    },
+    {
+      "assignment_id": "A033",
+      "user_id": "U033",
+      "employee_id": "E033",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R033"
+    },
+    {
+      "assignment_id": "A034",
+      "user_id": "U034",
+      "employee_id": "E034",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R034"
+    },
+    {
+      "assignment_id": "A035",
+      "user_id": "U035",
+      "employee_id": "E035",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R035"
+    },
+    {
+      "assignment_id": "A036",
+      "user_id": "U036",
+      "employee_id": "E036",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R036"
+    },
+    {
+      "assignment_id": "A037",
+      "user_id": "U037",
+      "employee_id": "E037",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R037"
+    },
+    {
+      "assignment_id": "A038",
+      "user_id": "U038",
+      "employee_id": "E038",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R038"
+    },
+    {
+      "assignment_id": "A039",
+      "user_id": "U039",
+      "employee_id": "E039",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R039"
+    },
+    {
+      "assignment_id": "A040",
+      "user_id": "U040",
+      "employee_id": "E040",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R040"
+    },
+    {
+      "assignment_id": "A041",
+      "user_id": "U041",
+      "employee_id": "E041",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R041"
+    },
+    {
+      "assignment_id": "A042",
+      "user_id": "U042",
+      "employee_id": "E042",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R042"
+    },
+    {
+      "assignment_id": "A043",
+      "user_id": "U043",
+      "employee_id": "E043",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R043"
+    },
+    {
+      "assignment_id": "A044",
+      "user_id": "U044",
+      "employee_id": "E044",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R044"
+    },
+    {
+      "assignment_id": "A045",
+      "user_id": "U045",
+      "employee_id": "E045",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R045"
+    },
+    {
+      "assignment_id": "A046",
+      "user_id": "U046",
+      "employee_id": "E046",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R046"
+    },
+    {
+      "assignment_id": "A047",
+      "user_id": "U047",
+      "employee_id": "E047",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R047"
+    },
+    {
+      "assignment_id": "A048",
+      "user_id": "U048",
+      "employee_id": "E048",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R048"
+    },
+    {
+      "assignment_id": "A049",
+      "user_id": "U049",
+      "employee_id": "E049",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R049"
+    },
+    {
+      "assignment_id": "A050",
+      "user_id": "U050",
+      "employee_id": "E050",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R050"
+    },
+    {
+      "assignment_id": "A051",
+      "user_id": "U051",
+      "employee_id": "E051",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R051"
+    },
+    {
+      "assignment_id": "A052",
+      "user_id": "U052",
+      "employee_id": "E052",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R052"
+    },
+    {
+      "assignment_id": "A053",
+      "user_id": "U053",
+      "employee_id": "E053",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R053"
+    },
+    {
+      "assignment_id": "A054",
+      "user_id": "U054",
+      "employee_id": "E054",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R054"
+    },
+    {
+      "assignment_id": "A055",
+      "user_id": "U055",
+      "employee_id": "E055",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R055"
+    },
+    {
+      "assignment_id": "A056",
+      "user_id": "U056",
+      "employee_id": "E056",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R056"
+    },
+    {
+      "assignment_id": "A057",
+      "user_id": "U057",
+      "employee_id": "E057",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R057"
+    },
+    {
+      "assignment_id": "A058",
+      "user_id": "U058",
+      "employee_id": "E058",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R058"
+    },
+    {
+      "assignment_id": "A059",
+      "user_id": "U059",
+      "employee_id": "E059",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R059"
+    },
+    {
+      "assignment_id": "A060",
+      "user_id": "U060",
+      "employee_id": "E060",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R060"
+    },
+    {
+      "assignment_id": "A061",
+      "user_id": "U061",
+      "employee_id": "E061",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R061"
+    },
+    {
+      "assignment_id": "A062",
+      "user_id": "U062",
+      "employee_id": "E062",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R062"
+    },
+    {
+      "assignment_id": "A063",
+      "user_id": "U063",
+      "employee_id": "E063",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R063"
+    },
+    {
+      "assignment_id": "A064",
+      "user_id": "U064",
+      "employee_id": "E064",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R064"
+    },
+    {
+      "assignment_id": "A065",
+      "user_id": "U065",
+      "employee_id": "E065",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R065"
+    },
+    {
+      "assignment_id": "A066",
+      "user_id": "U066",
+      "employee_id": "E066",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R066"
+    },
+    {
+      "assignment_id": "A067",
+      "user_id": "U067",
+      "employee_id": "E067",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R067"
+    },
+    {
+      "assignment_id": "A068",
+      "user_id": "U068",
+      "employee_id": "E068",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R068"
+    },
+    {
+      "assignment_id": "A069",
+      "user_id": "U069",
+      "employee_id": "E069",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R069"
+    },
+    {
+      "assignment_id": "A070",
+      "user_id": "U070",
+      "employee_id": "E070",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R070"
+    },
+    {
+      "assignment_id": "A071",
+      "user_id": "U071",
+      "employee_id": "E071",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R071"
+    },
+    {
+      "assignment_id": "A072",
+      "user_id": "U072",
+      "employee_id": "E072",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R072"
+    },
+    {
+      "assignment_id": "A073",
+      "user_id": "U073",
+      "employee_id": "E073",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R073"
+    },
+    {
+      "assignment_id": "A074",
+      "user_id": "U074",
+      "employee_id": "E074",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R074"
+    },
+    {
+      "assignment_id": "A075",
+      "user_id": "U075",
+      "employee_id": "E075",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R075"
+    },
+    {
+      "assignment_id": "A076",
+      "user_id": "U076",
+      "employee_id": "E076",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R076"
+    },
+    {
+      "assignment_id": "A077",
+      "user_id": "U077",
+      "employee_id": "E077",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R077"
+    },
+    {
+      "assignment_id": "A078",
+      "user_id": "U078",
+      "employee_id": "E078",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R078"
+    },
+    {
+      "assignment_id": "A079",
+      "user_id": "U079",
+      "employee_id": "E079",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R079"
+    },
+    {
+      "assignment_id": "A080",
+      "user_id": "U080",
+      "employee_id": "E080",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R080"
+    },
+    {
+      "assignment_id": "A081",
+      "user_id": "U081",
+      "employee_id": "E081",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R081"
+    },
+    {
+      "assignment_id": "A082",
+      "user_id": "U082",
+      "employee_id": "E082",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R082"
+    },
+    {
+      "assignment_id": "A083",
+      "user_id": "U083",
+      "employee_id": "E083",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R083"
+    },
+    {
+      "assignment_id": "A084",
+      "user_id": "U084",
+      "employee_id": "E084",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R084"
+    },
+    {
+      "assignment_id": "A085",
+      "user_id": "U085",
+      "employee_id": "E085",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R085"
+    },
+    {
+      "assignment_id": "A086",
+      "user_id": "U086",
+      "employee_id": "E086",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R086"
+    },
+    {
+      "assignment_id": "A087",
+      "user_id": "U087",
+      "employee_id": "E087",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R087"
+    },
+    {
+      "assignment_id": "A088",
+      "user_id": "U088",
+      "employee_id": "E088",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R088"
+    },
+    {
+      "assignment_id": "A089",
+      "user_id": "U089",
+      "employee_id": "E089",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R089"
+    },
+    {
+      "assignment_id": "A090",
+      "user_id": "U090",
+      "employee_id": "E090",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R090"
+    },
+    {
+      "assignment_id": "A091",
+      "user_id": "U091",
+      "employee_id": "E091",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R091"
+    },
+    {
+      "assignment_id": "A092",
+      "user_id": "U092",
+      "employee_id": "E092",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R092"
+    },
+    {
+      "assignment_id": "A093",
+      "user_id": "U093",
+      "employee_id": "E093",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R093"
+    },
+    {
+      "assignment_id": "A094",
+      "user_id": "U094",
+      "employee_id": "E094",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R094"
+    },
+    {
+      "assignment_id": "A095",
+      "user_id": "U095",
+      "employee_id": "E095",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R095"
+    },
+    {
+      "assignment_id": "A096",
+      "user_id": "U096",
+      "employee_id": "E096",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R096"
+    },
+    {
+      "assignment_id": "A097",
+      "user_id": "U097",
+      "employee_id": "E097",
+      "account_status": "Active",
+      "role_id": "BUY_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R097"
+    },
+    {
+      "assignment_id": "A098",
+      "user_id": "U098",
+      "employee_id": "E098",
+      "account_status": "Active",
+      "role_id": "SALES_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R098"
+    },
+    {
+      "assignment_id": "A099",
+      "user_id": "U099",
+      "employee_id": "E099",
+      "account_status": "Active",
+      "role_id": "HR_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R099"
+    },
+    {
+      "assignment_id": "A100",
+      "user_id": "U100",
+      "employee_id": "E100",
+      "account_status": "Active",
+      "role_id": "IT_USER",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R100"
+    },
+    {
+      "assignment_id": "A101",
+      "user_id": "U005",
+      "employee_id": "E005",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R101"
+    },
+    {
+      "assignment_id": "A102",
+      "user_id": "U010",
+      "employee_id": "E010",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R102"
+    },
+    {
+      "assignment_id": "A103",
+      "user_id": "U015",
+      "employee_id": "E015",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R103"
+    },
+    {
+      "assignment_id": "A104",
+      "user_id": "U020",
+      "employee_id": "E020",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R104"
+    },
+    {
+      "assignment_id": "A105",
+      "user_id": "U025",
+      "employee_id": "E025",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R105"
+    },
+    {
+      "assignment_id": "A106",
+      "user_id": "U030",
+      "employee_id": "E030",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R106"
+    },
+    {
+      "assignment_id": "A107",
+      "user_id": "U035",
+      "employee_id": "E035",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R107"
+    },
+    {
+      "assignment_id": "A108",
+      "user_id": "U040",
+      "employee_id": "E040",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R108"
+    },
+    {
+      "assignment_id": "A109",
+      "user_id": "U045",
+      "employee_id": "E045",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R109"
+    },
+    {
+      "assignment_id": "A110",
+      "user_id": "U050",
+      "employee_id": "E050",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R110"
+    },
+    {
+      "assignment_id": "A111",
+      "user_id": "U001",
+      "employee_id": "E001",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R111"
+    },
+    {
+      "assignment_id": "A112",
+      "user_id": "U055",
+      "employee_id": "E055",
+      "account_status": "Active",
+      "role_id": "CONFIG_ADMIN",
+      "granted_at": "2026-09-05 10:00",
+      "removed_at": null,
+      "request_id": "R112"
+    },
+    {
+      "assignment_id": "A113",
+      "user_id": "U060",
+      "employee_id": "E060",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-08 10:00",
+      "removed_at": null,
+      "request_id": "R113"
+    },
+    {
+      "assignment_id": "A114",
+      "user_id": "U065",
+      "employee_id": "E065",
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R114"
+    },
+    {
+      "assignment_id": "A115",
+      "user_id": "U070",
+      "employee_id": "E070",
+      "account_status": "Active",
+      "role_id": "CONFIG_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": "R115"
+    },
+    {
+      "assignment_id": "A116",
+      "user_id": "U011",
+      "employee_id": "E011",
+      "account_status": "Active",
+      "role_id": "FIN_USER",
+      "granted_at": "2026-09-14 09:00",
+      "removed_at": null,
+      "request_id": "R116"
+    },
+    {
+      "assignment_id": "A117",
+      "user_id": "S001",
+      "employee_id": null,
+      "account_status": "Active",
+      "role_id": "USER_ADMIN",
+      "granted_at": "2026-09-01 09:00",
+      "removed_at": null,
+      "request_id": null
+    }
+  ],
+  "Role_Catalog": [
+    {
+      "role_id": "FIN_USER",
+      "is_privileged": "No",
+      "allowed_department": "Finance",
+      "allowed_job_title": "Accountant",
+      "required_approver_role": "Department_Manager"
+    },
+    {
+      "role_id": "BUY_USER",
+      "is_privileged": "No",
+      "allowed_department": "Procurement",
+      "allowed_job_title": "Buyer",
+      "required_approver_role": "Department_Manager"
+    },
+    {
+      "role_id": "SALES_USER",
+      "is_privileged": "No",
+      "allowed_department": "Sales",
+      "allowed_job_title": "Sales_Staff",
+      "required_approver_role": "Department_Manager"
+    },
+    {
+      "role_id": "HR_USER",
+      "is_privileged": "No",
+      "allowed_department": "HR",
+      "allowed_job_title": "HR_Staff",
+      "required_approver_role": "Department_Manager"
+    },
+    {
+      "role_id": "IT_USER",
+      "is_privileged": "No",
+      "allowed_department": "IT",
+      "allowed_job_title": "System_Admin",
+      "required_approver_role": "Department_Manager"
+    },
+    {
+      "role_id": "USER_ADMIN",
+      "is_privileged": "Yes",
+      "allowed_department": "IT",
+      "allowed_job_title": "System_Admin",
+      "required_approver_role": "IT_Manager"
+    },
+    {
+      "role_id": "CONFIG_ADMIN",
+      "is_privileged": "Yes",
+      "allowed_department": "IT",
+      "allowed_job_title": "System_Admin",
+      "required_approver_role": "IT_Manager"
+    }
+  ],
+  "Access_Requests": [
+    {
+      "request_id": "R001",
+      "assignment_id": "A001",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R002",
+      "assignment_id": "A002",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R003",
+      "assignment_id": "A003",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R004",
+      "assignment_id": "A004",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R005",
+      "assignment_id": "A005",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R006",
+      "assignment_id": "A006",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R007",
+      "assignment_id": "A007",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R008",
+      "assignment_id": "A008",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R009",
+      "assignment_id": "A009",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R010",
+      "assignment_id": "A010",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R011",
+      "assignment_id": "A011",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R012",
+      "assignment_id": "A012",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R013",
+      "assignment_id": "A013",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R014",
+      "assignment_id": "A014",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R015",
+      "assignment_id": "A015",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R016",
+      "assignment_id": "A016",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R017",
+      "assignment_id": "A017",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R018",
+      "assignment_id": "A018",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R019",
+      "assignment_id": "A019",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R020",
+      "assignment_id": "A020",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R021",
+      "assignment_id": "A021",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R022",
+      "assignment_id": "A022",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R023",
+      "assignment_id": "A023",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R024",
+      "assignment_id": "A024",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R025",
+      "assignment_id": "A025",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R026",
+      "assignment_id": "A026",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R027",
+      "assignment_id": "A027",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R028",
+      "assignment_id": "A028",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R029",
+      "assignment_id": "A029",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R030",
+      "assignment_id": "A030",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R031",
+      "assignment_id": "A031",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R032",
+      "assignment_id": "A032",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R033",
+      "assignment_id": "A033",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R034",
+      "assignment_id": "A034",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R035",
+      "assignment_id": "A035",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R036",
+      "assignment_id": "A036",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R037",
+      "assignment_id": "A037",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R038",
+      "assignment_id": "A038",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R039",
+      "assignment_id": "A039",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R040",
+      "assignment_id": "A040",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R041",
+      "assignment_id": "A041",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R042",
+      "assignment_id": "A042",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R043",
+      "assignment_id": "A043",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R044",
+      "assignment_id": "A044",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R045",
+      "assignment_id": "A045",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R046",
+      "assignment_id": "A046",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R047",
+      "assignment_id": "A047",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R048",
+      "assignment_id": "A048",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R049",
+      "assignment_id": "A049",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R050",
+      "assignment_id": "A050",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R051",
+      "assignment_id": "A051",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R052",
+      "assignment_id": "A052",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R053",
+      "assignment_id": "A053",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R054",
+      "assignment_id": "A054",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R055",
+      "assignment_id": "A055",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R056",
+      "assignment_id": "A056",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R057",
+      "assignment_id": "A057",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R058",
+      "assignment_id": "A058",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R059",
+      "assignment_id": "A059",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R060",
+      "assignment_id": "A060",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R061",
+      "assignment_id": "A061",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R062",
+      "assignment_id": "A062",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R063",
+      "assignment_id": "A063",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R064",
+      "assignment_id": "A064",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R065",
+      "assignment_id": "A065",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R066",
+      "assignment_id": "A066",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R067",
+      "assignment_id": "A067",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R068",
+      "assignment_id": "A068",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R069",
+      "assignment_id": "A069",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R070",
+      "assignment_id": "A070",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R071",
+      "assignment_id": "A071",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R072",
+      "assignment_id": "A072",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R073",
+      "assignment_id": "A073",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R074",
+      "assignment_id": "A074",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R075",
+      "assignment_id": "A075",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R076",
+      "assignment_id": "A076",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R077",
+      "assignment_id": "A077",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R078",
+      "assignment_id": "A078",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R079",
+      "assignment_id": "A079",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R080",
+      "assignment_id": "A080",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R081",
+      "assignment_id": "A081",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R082",
+      "assignment_id": "A082",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R083",
+      "assignment_id": "A083",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R084",
+      "assignment_id": "A084",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R085",
+      "assignment_id": "A085",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R086",
+      "assignment_id": "A086",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R087",
+      "assignment_id": "A087",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R088",
+      "assignment_id": "A088",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R089",
+      "assignment_id": "A089",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R090",
+      "assignment_id": "A090",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R091",
+      "assignment_id": "A091",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R092",
+      "assignment_id": "A092",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R093",
+      "assignment_id": "A093",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R094",
+      "assignment_id": "A094",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R095",
+      "assignment_id": "A095",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R096",
+      "assignment_id": "A096",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R097",
+      "assignment_id": "A097",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R098",
+      "assignment_id": "A098",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R099",
+      "assignment_id": "A099",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R100",
+      "assignment_id": "A100",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R101",
+      "assignment_id": "A101",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R102",
+      "assignment_id": "A102",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R103",
+      "assignment_id": "A103",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R104",
+      "assignment_id": "A104",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R105",
+      "assignment_id": "A105",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R106",
+      "assignment_id": "A106",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R107",
+      "assignment_id": "A107",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R108",
+      "assignment_id": "A108",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R109",
+      "assignment_id": "A109",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R110",
+      "assignment_id": "A110",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R111",
+      "assignment_id": "A111",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R112",
+      "assignment_id": "A112",
+      "approval_status": "Approved",
+      "approved_at": "2026-09-06 09:00",
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R113",
+      "assignment_id": "A113",
+      "approval_status": "Pending",
+      "approved_at": null,
+      "approver_role": "IT_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R114",
+      "assignment_id": "A114",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "IT_Manager",
+      "expires_at": "2026-09-25 18:00"
+    },
+    {
+      "request_id": "R115",
+      "assignment_id": "A115",
+      "approval_status": "Approved",
+      "approved_at": "2026-08-31 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    },
+    {
+      "request_id": "R116",
+      "assignment_id": "A116",
+      "approval_status": "Approved",
+      "approved_at": "2026-09-13 15:00",
+      "approver_role": "Department_Manager",
+      "expires_at": null
+    }
+  ],
+  "JML_Events": [
+    {
+      "employee_id": "E011",
+      "event_type": "Joiner",
+      "effective_date": "2026-09-15",
+      "old_department": null,
+      "new_department": "Finance"
+    },
+    {
+      "employee_id": "E030",
+      "event_type": "Mover",
+      "effective_date": "2026-09-10",
+      "old_department": "IT",
+      "new_department": "Finance"
+    },
+    {
+      "employee_id": "E015",
+      "event_type": "Leaver",
+      "effective_date": "2026-09-20",
+      "old_department": "IT",
+      "new_department": null
+    }
+  ]
+}

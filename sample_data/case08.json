@@ -1,0 +1,704 @@
+{
+  "Transactions": [
+    {
+      "transaction_id": "T001",
+      "amount": 5000000,
+      "currency": "KRW",
+      "posted_at": "2026-09-27 02:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T002",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 02:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T003",
+      "amount": 400,
+      "currency": "USD",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T004",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T005",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T006",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T007",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T008",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T009",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T010",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T011",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T012",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T013",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T014",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T015",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T016",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T017",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T018",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T019",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T020",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T021",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T022",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T023",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T024",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T025",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T026",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T027",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T028",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T029",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T030",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T031",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T032",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T033",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T034",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T035",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T036",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T037",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T038",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T039",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T040",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T041",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T042",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T043",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T044",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T045",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T046",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T047",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T048",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T049",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T050",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T051",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T052",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T053",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T054",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T055",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T056",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T057",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T058",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T059",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T060",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T061",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T062",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T063",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T064",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T065",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T066",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T067",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T068",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T069",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T070",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T071",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T072",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T073",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T074",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T075",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T076",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T077",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T078",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T079",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T080",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T081",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T082",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T083",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T084",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T085",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T086",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T087",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T088",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T089",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T090",
+      "amount": 300,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T091",
+      "amount": 400,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T092",
+      "amount": 500,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T093",
+      "amount": 600,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T094",
+      "amount": 700,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T095",
+      "amount": 800,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    },
+    {
+      "transaction_id": "T096",
+      "amount": 900,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U01"
+    },
+    {
+      "transaction_id": "T097",
+      "amount": 1000,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U02"
+    },
+    {
+      "transaction_id": "T098",
+      "amount": 1100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U03"
+    },
+    {
+      "transaction_id": "T099",
+      "amount": 100,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U04"
+    },
+    {
+      "transaction_id": "T100",
+      "amount": 200,
+      "currency": "KRW",
+      "posted_at": "2026-09-28 10:00",
+      "user_id": "U00"
+    }
+  ]
+}

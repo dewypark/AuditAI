@@ -1,0 +1,1106 @@
+{
+  "HR_Master": [
+    {
+      "employee_id": "E001",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E002",
+      "employment_status": "Terminated",
+      "termination_date": "2026-09-10T00:00:00.000"
+    },
+    {
+      "employee_id": "E003",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E004",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E005",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E006",
+      "employment_status": "Terminated",
+      "termination_date": "2026-09-20T00:00:00.000"
+    },
+    {
+      "employee_id": "E007",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E008",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E009",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E010",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E011",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E012",
+      "employment_status": "Terminated",
+      "termination_date": "2026-09-13T00:00:00.000"
+    },
+    {
+      "employee_id": "E013",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E014",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E015",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E016",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E017",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E018",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E019",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E020",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E021",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E022",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E023",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E024",
+      "employment_status": "Terminated",
+      "termination_date": "2026-09-25T00:00:00.000"
+    },
+    {
+      "employee_id": "E025",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E026",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E027",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E028",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E029",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E030",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E031",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E032",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E033",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E034",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E035",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E036",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E037",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E038",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E039",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E040",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E041",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E042",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E043",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E044",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E045",
+      "employment_status": "Terminated",
+      "termination_date": "2026-09-21T00:00:00.000"
+    },
+    {
+      "employee_id": "E046",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E047",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E048",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E049",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E050",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E051",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E052",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E053",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E054",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E055",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E056",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E057",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E058",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E059",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E060",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E061",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E062",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E063",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E064",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E065",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E066",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E067",
+      "employment_status": "Terminated",
+      "termination_date": "2026-09-18T00:00:00.000"
+    },
+    {
+      "employee_id": "E068",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E069",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E070",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E071",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E072",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E073",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E074",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E075",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E076",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E077",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E078",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E079",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E080",
+      "employment_status": "Terminated",
+      "termination_date": "2026-09-06T00:00:00.000"
+    },
+    {
+      "employee_id": "E081",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E082",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E083",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E084",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E085",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E086",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E087",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E088",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E089",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E090",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E091",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E092",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E093",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E094",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E095",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E096",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E097",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E098",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E099",
+      "employment_status": "Employed",
+      "termination_date": null
+    },
+    {
+      "employee_id": "E100",
+      "employment_status": "Employed",
+      "termination_date": null
+    }
+  ],
+  "ERP_User_Master": [
+    {
+      "user_id": "U001",
+      "employee_id": "E001",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U002",
+      "employee_id": "E002",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U003",
+      "employee_id": "E003",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U004",
+      "employee_id": "E004",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U005",
+      "employee_id": "E005",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U006",
+      "employee_id": "E006",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U007",
+      "employee_id": "E007",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U008",
+      "employee_id": "E008",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U009",
+      "employee_id": "E009",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U010",
+      "employee_id": "E010",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U011",
+      "employee_id": "E011",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U012",
+      "employee_id": "E012",
+      "account_status": "Disabled",
+      "disabled_at": "2026-09-13T16:30:00.000"
+    },
+    {
+      "user_id": "U013",
+      "employee_id": "E013",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U014",
+      "employee_id": "E014",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U015",
+      "employee_id": "E015",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U016",
+      "employee_id": "E016",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U017",
+      "employee_id": "E017",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U018",
+      "employee_id": "E018",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U019",
+      "employee_id": "E019",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U020",
+      "employee_id": "E020",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U021",
+      "employee_id": "E021",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U022",
+      "employee_id": "E022",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U023",
+      "employee_id": "E023",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U024",
+      "employee_id": "E024",
+      "account_status": "Disabled",
+      "disabled_at": "2026-09-26T10:15:00.000"
+    },
+    {
+      "user_id": "U025",
+      "employee_id": "E025",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U026",
+      "employee_id": "E026",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U027",
+      "employee_id": "E027",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U028",
+      "employee_id": "E028",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U029",
+      "employee_id": "E029",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U030",
+      "employee_id": "E030",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U031",
+      "employee_id": "E031",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U032",
+      "employee_id": "E032",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U033",
+      "employee_id": "E033",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U034",
+      "employee_id": "E034",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U035",
+      "employee_id": "E035",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U036",
+      "employee_id": "E036",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U037",
+      "employee_id": "E037",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U038",
+      "employee_id": "E038",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U039",
+      "employee_id": "E039",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U040",
+      "employee_id": "E040",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U041",
+      "employee_id": "E041",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U042",
+      "employee_id": "E042",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U043",
+      "employee_id": "E043",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U044",
+      "employee_id": "E044",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U045",
+      "employee_id": "E045",
+      "account_status": "Disabled",
+      "disabled_at": "2026-09-21T23:59:00.000"
+    },
+    {
+      "user_id": "U046",
+      "employee_id": "E046",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U047",
+      "employee_id": "E047",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U048",
+      "employee_id": "E048",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U049",
+      "employee_id": "E049",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U050",
+      "employee_id": "E050",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U051",
+      "employee_id": "E051",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U052",
+      "employee_id": "E052",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U053",
+      "employee_id": "E053",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U054",
+      "employee_id": "E054",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U055",
+      "employee_id": "E055",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U056",
+      "employee_id": "E056",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U057",
+      "employee_id": "E057",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U058",
+      "employee_id": "E058",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U059",
+      "employee_id": "E059",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U060",
+      "employee_id": "E060",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U061",
+      "employee_id": "E061",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U062",
+      "employee_id": "E062",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U063",
+      "employee_id": "E063",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U064",
+      "employee_id": "E064",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U065",
+      "employee_id": "E065",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U066",
+      "employee_id": "E066",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U067",
+      "employee_id": "E067",
+      "account_status": "Disabled",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U068",
+      "employee_id": "E068",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U069",
+      "employee_id": "E069",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U070",
+      "employee_id": "E070",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U071",
+      "employee_id": "E071",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U072",
+      "employee_id": "E072",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U073",
+      "employee_id": "E073",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U074",
+      "employee_id": "E074",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U075",
+      "employee_id": "E075",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U076",
+      "employee_id": "E076",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U077",
+      "employee_id": "E077",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U078",
+      "employee_id": "E078",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U079",
+      "employee_id": "E079",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U080",
+      "employee_id": "E080",
+      "account_status": "Disabled",
+      "disabled_at": "2026-09-07T00:00:00.000"
+    },
+    {
+      "user_id": "U081",
+      "employee_id": "E081",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U082",
+      "employee_id": "E082",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U083",
+      "employee_id": "E083",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U084",
+      "employee_id": "E084",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U085",
+      "employee_id": "E085",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U086",
+      "employee_id": "E086",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U087",
+      "employee_id": "E087",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U088",
+      "employee_id": "E088",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U089",
+      "employee_id": "E089",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U090",
+      "employee_id": "E090",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U091",
+      "employee_id": "E091",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U092",
+      "employee_id": "E092",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U093",
+      "employee_id": "E093",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U094",
+      "employee_id": "E094",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U095",
+      "employee_id": "E095",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U096",
+      "employee_id": "E096",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U097",
+      "employee_id": "E097",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U098",
+      "employee_id": "E098",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "U099",
+      "employee_id": "E099",
+      "account_status": "Active",
+      "disabled_at": null
+    },
+    {
+      "user_id": "S001",
+      "employee_id": null,
+      "account_status": "Active",
+      "disabled_at": null
+    }
+  ]
+}
