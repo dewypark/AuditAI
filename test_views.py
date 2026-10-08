@@ -13,3 +13,24 @@ class ViewTests(unittest.TestCase):
   self.assertIn('로그 추가 확인',c.get(f'/run/{rid}').get_data(as_text=True))
   self.assertEqual(c.get('/inspector').status_code,200)
   other=app.test_client();self.assertEqual(other.get(f'/inspector/run/{rid}').status_code,404)
+
+ def test_all_customer_cases_show_evidence_requests(self):
+  from main import db
+  import html
+  c=app.test_client();c.get('/')
+  with c.session_transaction() as sess: token=sess['csrf']
+  for case in range(1,9):
+   with self.subTest(case=case):
+    reply=c.post(f'/case/{case}',data={'csrf':token,'action':'demo'})
+    self.assertEqual(reply.status_code,302)
+    rid=reply.location.rsplit('/',1)[1]
+    text=c.get(reply.location).get_data(as_text=True)
+    self.assertIn('항목별 결과와 필요한 증빙',text)
+    self.assertIn('증빙 필요:',text)
+    self.assertNotIn('name="note"',text)
+    with db() as conn: rows=conn.execute('SELECT entity,reason,evidence_request FROM candidates WHERE run_id=?',(rid,)).fetchall()
+    self.assertGreater(len(rows),0)
+    for row in rows:
+     self.assertTrue(row['evidence_request'].strip())
+     self.assertIn(row['evidence_request'],html.unescape(text))
+    self.assertLess(text.index('id="customer-findings"'),text.index('id="review-request"'))
