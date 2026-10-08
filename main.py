@@ -64,11 +64,12 @@ def configuration():
     return cfg
 
 @app.route('/')
+@app.route('/inspector')
 def home():
     with db() as c:
         runs=c.execute('SELECT id,case_no,created,population FROM runs WHERE owner=? ORDER BY created DESC',(owner(),)).fetchall()
         counts=c.execute('SELECT status,count(*) n FROM candidates WHERE run_id IN (SELECT id FROM runs WHERE owner=?) GROUP BY status',(owner(),)).fetchall()
-    return render_template('workspace.html',names=NAMES,runs=runs,counts=counts)
+    return render_template('workspace.html',names=NAMES,runs=runs,counts=counts,inspector=request.path=='/inspector')
 
 @app.route('/case/<int:case>',methods=['GET','POST'])
 def case_page(case):
@@ -96,13 +97,14 @@ def case_page(case):
             c.execute('INSERT INTO runs(id,owner,case_no,created,filename,hash,raw,config,population,result) VALUES (?,?,?,?,?,?,?,?,?,?)',(rid,owner(),case,now(),filename,hashlib.sha256(raw).hexdigest(),raw,json.dumps(cfg,ensure_ascii=False),population,json.dumps({n:serialize(f) for n,f in result.items()},ensure_ascii=False)))
             for v in candidates:c.execute('INSERT INTO candidates(run_id,id,entity,rule,reason,evidence_request,source_ref,severity,status) VALUES (?,?,?,?,?,?,?,?,?)',(rid,v['candidate_id'],v['entity_id'],v['rule_id'],v['reason'],v['evidence_request'],v['source_ref'],v['severity'],'미검토'))
             c.execute('INSERT OR REPLACE INTO mappings VALUES (?,?,?)',(owner(),case,json.dumps(cfg['mapping'],ensure_ascii=False)))
-        return redirect(url_for('run_page',rid=rid))
+        return redirect('/run/'+rid)
     except (ValueError,KeyError,TypeError) as e:return render_template('workspace.html',error=str(e),**kwargs),400
     except Exception:
         app.logger.exception('Analysis input failed')
         return render_template('workspace.html',error='파일 구조·형식 확인 필요. 정상 파일로 다시 실행해주세요.',**kwargs),400
 
 @app.route('/run/<rid>')
+@app.route('/inspector/run/<rid>')
 def run_page(rid):
     r=get_run(rid)
     with db() as c:
@@ -110,7 +112,7 @@ def run_page(rid):
         h=c.execute('SELECT * FROM history WHERE run_id=? ORDER BY seq DESC',(rid,)).fetchall()
         review_request=c.execute('SELECT * FROM review_requests WHERE run_id=?',(rid,)).fetchone()
     tables={n:pd.DataFrame(rows).head(200).to_html(index=False,escape=True,na_rep='—') for n,rows in json.loads(r['result']).items()}
-    return render_template('workspace.html',names=NAMES,run=r,candidates=cs,history=h,tables=tables,risk=RISKS[r['case_no']],control=CONTROLS[r['case_no']],statuses=STATUSES,review_request=review_request)
+    return render_template('workspace.html',names=NAMES,run=r,candidates=cs,history=h,tables=tables,risk=RISKS[r['case_no']],control=CONTROLS[r['case_no']],statuses=STATUSES,review_request=review_request,inspector=request.path.startswith('/inspector/'))
 
 @app.post('/run/<rid>/request-review')
 def request_review(rid):
@@ -123,7 +125,7 @@ def request_review(rid):
             request_id=uuid.uuid4().hex
             c.execute('INSERT INTO review_requests(id,run_id,requester,question,created) VALUES (?,?,?,?,?)',(request_id,rid,who,question,now()))
             c.execute('INSERT INTO history(run_id,candidate_id,created,payload) VALUES (?,?,?,?)',(rid,'REVIEW_REQUEST',now(),json.dumps({'request_id':request_id,'requester':who,'question':question,'status':'검토 대기'},ensure_ascii=False)))
-    return redirect(url_for('run_page',rid=rid)+'#review-request')
+    return redirect('/run/'+rid+'#review-request')
 
 @app.post('/run/<rid>/review-opinion')
 def review_opinion(rid):
@@ -134,7 +136,7 @@ def review_opinion(rid):
         cur=c.execute("UPDATE review_requests SET reviewer=?,opinion=?,status='의견 작성 완료',updated=? WHERE run_id=?",(who,opinion,now(),rid))
         if cur.rowcount!=1:abort(400,'먼저 검토를 신청해주세요.')
         c.execute('INSERT INTO history(run_id,candidate_id,created,payload) VALUES (?,?,?,?)',(rid,'REVIEW_OPINION',now(),json.dumps({'reviewer':who,'opinion':opinion},ensure_ascii=False)))
-    return redirect(url_for('run_page',rid=rid)+'#review-request')
+    return redirect('/inspector/run/'+rid+'#review-request')
 
 @app.post('/run/<rid>/review/<cid>')
 def review(rid,cid):
@@ -149,7 +151,7 @@ def review(rid,cid):
         if cur.rowcount!=1:abort(404)
         c.execute('INSERT INTO history(run_id,candidate_id,created,payload) VALUES (?,?,?,?)',(rid,cid,now(),json.dumps(payload,ensure_ascii=False)))
         c.execute('UPDATE runs SET conclusion=?,conclusion_by=? WHERE id=?',('','',rid))
-    return redirect(url_for('run_page',rid=rid))
+    return redirect('/inspector/run/'+rid)
 
 @app.post('/run/<rid>/conclusion')
 def conclusion(rid):
@@ -160,7 +162,7 @@ def conclusion(rid):
         if pending:abort(400,'미완료 후보가 있습니다. 증빙 검토를 완료한 뒤 결론을 저장해주세요.')
         c.execute('UPDATE runs SET conclusion=?,conclusion_by=? WHERE id=?',(text,who,rid))
         c.execute('INSERT INTO history(run_id,candidate_id,created,payload) VALUES (?,?,?,?)',(rid,'CONCLUSION',now(),json.dumps({'conclusion':text,'reviewer':who},ensure_ascii=False)))
-    return redirect(url_for('run_page',rid=rid))
+    return redirect('/inspector/run/'+rid)
 
 @app.get('/sample/<int:case>')
 def sample(case):
